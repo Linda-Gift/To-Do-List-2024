@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: -0.8px;
+    font-family: "Inter", sans-serif;
+}
+
+.main-container{
+    width: 40%;
+    height: auto;
+    background-color: #f6f6f6;
+    margin: 4rem auto;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.todo-title-container{
+    width: fit-content;
+    height: auto;
+    padding-bottom: 0.5rem;
+}
+
+.todo-title-container h1{
+    font-size: 1.2rem;
+}
+
+.todo-input-container{
+    width: 100%;
+    height: auto;
+}
+
+.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+input{
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+button{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-item-container{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.todo-item{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+    padding: 1rem 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e8e8e8;
+}
+
+.left-side{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.75rem;
+}
+
+.right-side{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.75rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.fa-circle{
+    cursor: pointer;
+}
+
+.fa-pen{
+    cursor: pointer;
+}
+
+.fa-trash{
+    cursor: pointer;
+}
+
+.fa-circle-check{
+    cursor: pointer;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
